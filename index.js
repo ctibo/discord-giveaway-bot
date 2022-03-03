@@ -8,8 +8,8 @@ client.giveawaysManager = new GiveawaysManager(client, {
     updateCountdownEvery: 5000,
     default: {
         botsCanWin: false,
-        embedColor: "#FF0000",
-        reaction: "🎉"
+        embedColor: "#81F7FF",
+        reaction: "🔀"
     }
 });
 

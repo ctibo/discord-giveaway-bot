@@ -49,10 +49,10 @@ module.exports = {
                 winnerCount: parseInt(giveawayNumberWinners),
                 hostedBy: config["Giveaway_Options"].hostedBy ? message.author : null,
                 messages: {
-                    giveaway: ":tada: **SHUFFLE**",
-                    giveawayEnded: ":tada: **SHUFFLE ENDED**",
+                    giveaway: ":twisted_rightwards_arrows: **SHUFFLE**",
+                    giveawayEnded: ":twisted_rightwards_arrows: **SHUFFLE ENDED**",
                     timeRemaining: "Time remaining: **{duration}**!",
-                    inviteToParticipate: "React with 🎉 to participate!",
+                    inviteToParticipate: "React with 🔀 to participate!",
                     winMessage: "Congratulations, {winners}! You can buy **{prize}**!",
                     embedFooter: "Giveaways",
                     noWinner: "Not enough entrants to determine a winner!",
@@ -77,10 +77,10 @@ module.exports = {
                 winnerCount: parseInt(giveawayNumberWinners),
                 hostedBy: config["Giveaway_Options"].hostedBy ? message.author : null,
                 messages: {
-                    giveaway: (config["Giveaway_Options"].showMention ? `<@&${config["Giveaway_Options"].giveawayRoleID}>\n\n` : "") + ":tada: **SHUFFLE**",
-                    giveawayEnded: (config["Giveaway_Options"].showMention ? `<@&${config["Giveaway_Options"].giveawayRoleID}>\n\n` : "") + ":tada: **SHUFFLE ENDED**",
+                    giveaway: (config["Giveaway_Options"].showMention ? `<@&${config["Giveaway_Options"].giveawayRoleID}>\n\n` : "") + ":twisted_rightwards_arrows: **SHUFFLE**",
+                    giveawayEnded: (config["Giveaway_Options"].showMention ? `<@&${config["Giveaway_Options"].giveawayRoleID}>\n\n` : "") + ":twisted_rightwards_arrows: **SHUFFLE ENDED**",
                     timeRemaining: "Time remaining: **{duration}**!",
-                    inviteToParticipate: "React with 🎉 to participate!",
+                    inviteToParticipate: "React with 🔀 to participate!",
                     winMessage: "Congratulations, {winners}! You can buy **{prize}**!",
                     embedFooter: "Giveaways",
                     noWinner: "Not enough entrants to determine a winner!",
@@ -105,10 +105,10 @@ module.exports = {
                 winnerCount: parseInt(giveawayNumberWinners),
                 hostedBy: config["Giveaway_Options"].hostedBy ? message.author : null,
                 messages: {
-                    giveaway: ":tada: **SHUFFLE**",
-                    giveawayEnded: ":tada: **SHUFFLE ENDED**",
+                    giveaway: ":twisted_rightwards_arrows: **SHUFFLE**",
+                    giveawayEnded: ":twisted_rightwards_arrows: **SHUFFLE ENDED**",
                     timeRemaining: "Time remaining: **{duration}**!",
-                    inviteToParticipate: "React with 🎉 to participate!",
+                    inviteToParticipate: "React with 🔀 to participate!",
                     winMessage: "Congratulations, {winners}! You can buy **{prize}**!",
                     embedFooter: "Giveaways",
                     noWinner: "Not enough entrants to determine a winner!",
@@ -132,10 +132,10 @@ module.exports = {
                 winnerCount: parseInt(giveawayNumberWinners),
                 hostedBy: config["Giveaway_Options"].hostedBy ? message.author : null,
                 messages: {
-                    giveaway: (config["Giveaway_Options"].showMention ? `@everyone\n\n` : "") + ":tada: **SHUFFLE**",
-                    giveawayEnded: (config["Giveaway_Options"].showMention ? `@everyone\n\n` : "") + ":tada: **SHUFFLE**",
+                    giveaway: (config["Giveaway_Options"].showMention ? `@everyone\n\n` : "") + ":twisted_rightwards_arrows: **SHUFFLE**",
+                    giveawayEnded: (config["Giveaway_Options"].showMention ? `@everyone\n\n` : "") + ":twisted_rightwards_arrows: **SHUFFLE**",
                     timeRemaining: "Time remaining: **{duration}**!",
-                    inviteToParticipate: "React with 🎉 to participate!",
+                    inviteToParticipate: "React with 🔀 to participate!",
                     winMessage: "Congratulations, {winners}! You ca buy **{prize}**!",
                     embedFooter: "Giveaways",
                     noWinner: "Not enough entrants to determine a winner!",
@@ -158,10 +158,10 @@ module.exports = {
                 winnerCount: parseInt(giveawayNumberWinners),
                 hostedBy: config["Giveaway_Options"].hostedBy ? message.author : null,
                 messages: {
-                    giveaway: ":tada: **SHUFFLE**",
-                    giveawayEnded: ":tada: **SHUFFLE ENDED**",
+                    giveaway: ":twisted_rightwards_arrows: **SHUFFLE**",
+                    giveawayEnded: ":twisted_rightwards_arrows: **SHUFFLE ENDED**",
                     timeRemaining: "Time remaining: **{duration}**!",
-                    inviteToParticipate: "React with 🎉 to participate!",
+                    inviteToParticipate: "React with 🔀 to participate!",
                     winMessage: "Congratulations, {winners}! You can buy **{prize}**!",
                     embedFooter: "Giveaways",
                     noWinner: "Not enough entrants to determine a winner!",
@@ -180,6 +180,6 @@ module.exports = {
         }
 
 
-        message.channel.send(`:tada: Done! The giveaway for the \`${giveawayPrize}\` is starting in ${giveawayChannel}!`);
+        message.channel.send(`:twisted_rightwards_arrows: Done! The giveaway for the \`${giveawayPrize}\` is starting in ${giveawayChannel}!`);
     }
 }
